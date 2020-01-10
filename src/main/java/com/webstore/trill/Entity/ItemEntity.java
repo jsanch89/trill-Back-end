@@ -1,6 +1,6 @@
 package com.webstore.trill.Entity;
 
-import com.webstore.trill.converter.ListToString;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +21,7 @@ public class ItemEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    
     @NotNull
     private String name;
 
